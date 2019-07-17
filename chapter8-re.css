@@ -50,6 +50,7 @@ main{
 }
 
 .step-num{
+  
   position: absolute;
   top: 0;
   left: 0;
@@ -63,6 +64,15 @@ main{
 }
 
 @media screen and (max-width:768px) {
+  main {s
+  width: 90%;
+  }
  .step-box {
+  margin-bottom: 20px;
   width: 100%;
   float: none;
+ }
+.step-box:last-child{
+  margin-bottom: 0;
+}
+}
