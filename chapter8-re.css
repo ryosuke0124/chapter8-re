@@ -64,7 +64,7 @@ main{
 }
 
 @media screen and (max-width:768px) {
-  main {s
+  main {
   width: 90%;
   }
  .step-box {
